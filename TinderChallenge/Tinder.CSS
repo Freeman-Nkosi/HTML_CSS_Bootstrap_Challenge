@@ -1,0 +1,89 @@
+/* The person for the styling the html tag is to make the background image full screen */
+html{
+	height: 100% auto;
+}
+body{
+  height: 100% auto;
+  margin: 0;
+  background-image: url("Tinder-logo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:100%;
+}
+
+img{
+	width:50px;
+	height:50px;
+	
+}
+/* The class might to style the two phrases GET STARTED and GET THE APP */
+.heading{
+	  font-weight: bold;
+	    font-style: italic;
+		font-size: 25px;
+		  
+}
+/* I'm giving the divs a basic padding to avoid a cluster */
+div{
+	padding:5px;
+	padding-bottom:15px;
+    padding-top:5px;
+	
+	
+	}
+/* The are certain div that I dont what t0 have padding */
+.anti_div{
+	padding:0px;
+	padding-bottom:0px;
+    padding-top:0px
+}
+/* Here I'm styling the inout tag so that the place holder can be easily read by the user*/
+
+input{
+	padding:2px;
+	width:254px;
+
+}
+/*Here I'm style link tag so that the links can all be underlined and be grey */
+a{
+text-decoration: underline; 
+ font-style: italic;	
+ color:grey;
+}
+
+/*The point of this styling is to center the card */
+.card {
+        margin: auto; /*  */
+        float: none; /* Added */
+        margin-bottom: 0px; /* Added */
+height:100%;
+width:50%;
+}
+/* Styling the Facebook button*/
+.FacebookB{
+	background-color:#2B9FC3;
+	color:white;
+	text-transform:uppercase;
+	font-size:medium;
+	width:80%;
+}
+/* Styling the container-fluid*/
+.container-fluid{
+	padding:70px;
+	width:80%;
+}
+/* Styling the AppStore buttons*/
+.AppStoreB{
+	background-color:white;
+	padding-left:60px;
+	padding-right:60px;
+	padding-bottom:5px;
+	padding-top:5px;
+}
+/*Here am I am styling the AppStore Icons*/
+.AppImg{
+	width:30px;
+	height:30px;
+	padding:0px;
+	
+}
